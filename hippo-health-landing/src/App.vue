@@ -1,13 +1,11 @@
 <template>
   <div id="app">
-    <router-view></router-view>
+    <SignupForm />
   </div>
 </template>
 
-<script>
-export default {
-  name: 'App'
-}
+<script setup>
+import SignupForm from './components/SignupForm.vue';
 </script>
 
 <style>
@@ -33,4 +31,5 @@ body {
 
 /* ... other global styles ... */
 </style>
+
 
